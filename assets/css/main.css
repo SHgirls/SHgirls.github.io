@@ -74,7 +74,8 @@ input, select, textarea {
 
 /* Basic */
 
-	@-ms-viewport {
+/*noinspection CssInvalidPropertyValue*/
+@-ms-viewport {
 		width: device-width;
 	}
 
@@ -1785,6 +1786,7 @@ input, select, textarea {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-justify-content: -moz-flex-end;
+		/*noinspection CssInvalidPropertyValue*/
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
@@ -2574,6 +2576,7 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			-moz-align-items: -moz-flex-start;
+			/*noinspection CssInvalidPropertyValue*/
 			-webkit-align-items: -webkit-flex-start;
 			-ms-align-items: -ms-flex-start;
 			align-items: flex-start;
@@ -3002,6 +3005,7 @@ input, select, textarea {
 
 			.post > footer {
 				-moz-align-items: -moz-stretch;
+				/*noinspection CssInvalidPropertyValue*/
 				-webkit-align-items: -webkit-stretch;
 				-ms-align-items: -ms-stretch;
 				align-items: stretch;
